@@ -1,0 +1,109 @@
+body {
+    background-color: #2E3235;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0);
+    width: 90vw;
+    max-width: 400px;
+    height: auto;
+    margin: auto;
+}
+
+.container .text {
+    background-color: #2E3235;
+    border: 2px solid rgba(255, 255, 255, 0.10);
+    border-radius: 10px;
+    width: 90vw;
+    max-width: 400px;
+    height: auto;
+    margin-top: 30px;
+}
+
+.container .text h2 {
+    font-family: "geom-graphic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    padding: 15px 30px 15px 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.button {
+    background-color: #FFCF00;
+    width: 90vw;
+    max-width: 400px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.49);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #FCE584;
+    box-shadow: 0px 3px 50px #FFC700;
+    transition: 500ms;
+}
+
+.button .outline {
+    background-color: rgba(0, 0, 0, 0);
+    width: 90vw;
+    max-width: 400px;
+    height: 60px;
+    margin-left: -4px;
+    margin-top: -4px;
+    border-radius: 13px;
+    border: 4px solid rgba(255, 255, 255, 0);
+    transition: 500ms;
+}
+
+.button .outline:hover {
+    border: 4px solid #FFC700;
+    transition: 500ms;
+}
+
+.button .outline .text-button{
+    color: #2E3235;
+    font-family: "geom-graphic", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    float: left;
+    margin: 20px;
+    text-transform: uppercase;
+}
+
+.button .outline i {
+    color: #2E3235;
+    float: left;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.button .outline .line-divisor{
+    background-color: rgba(0, 0, 0, 0.15);
+    width: 1px;
+    height: 60px;
+    float: left;
+}
+.button .outline .line-divisor-white{
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 2px;
+    height: 60px;
+    float: left;
+}
+
+.logo {
+    background-image: url(../img/logo.svg);
+    background-position: center;
+    width: 287px;
+    height: 39px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
