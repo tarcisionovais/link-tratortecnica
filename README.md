@@ -1,2 +1,2 @@
-# link-tratortecnica
-Similar Linktree project for Tratortécnica.
+# linkpage-tratortecnica
+Link page project for Tratortécnica.
