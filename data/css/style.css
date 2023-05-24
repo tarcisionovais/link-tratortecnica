@@ -30,6 +30,42 @@ body {
     text-align: center;
 }
 
+.container .footer {
+    width: 90vw;
+    max-width: 400px;
+    height: auto;
+    margin-top: 20px;
+    background-color: #2E3235;
+    border: 2px solid rgba(255, 255, 255, 0.10);
+    border-radius: 10px;
+}
+
+.container .footer h3 {
+    font-family: "geom-graphic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    padding: 10px;
+    color: #fff;
+}
+
+.container .footer i {
+    font-size: 32px;
+    color: #FFCF00;
+    padding: 30px 20px 30px 30px;
+    float: left;
+}
+
+.container .credits {
+    font-family: "geom-graphic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.25);
+    margin-top: 20px;
+    text-align: center;
+}
+
 .button {
     background-color: #FFCF00;
     width: 90vw;
@@ -91,6 +127,91 @@ body {
     float: left;
 }
 .button .outline .line-divisor-white{
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 2px;
+    height: 60px;
+    float: left;
+}
+
+.button-whatsapp {
+    background-color: #33FF00;
+    width: 90vw;
+    max-width: 400px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.49);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    transition: 500ms;
+    cursor: pointer;
+    box-shadow: 0 0 0 0 rgba(116, 228, 104, 1);
+    transform: scale(1);animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+	0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(116, 228, 104, 0.7);
+  }
+  
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(51, 217, 178, 0);
+  }
+  
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(51, 217, 178, 0);
+  }
+}
+
+.button-whatsapp:hover {
+    background-color: rgba(116, 228, 104, 1);
+    transition: 500ms;
+}
+
+.button-whatsapp .outline {
+    background-color: rgba(0, 0, 0, 0);
+    width: 90vw;
+    max-width: 400px;
+    height: 60px;
+    margin-left: -4px;
+    margin-top: -4px;
+    border-radius: 13px;
+    border: 4px solid rgba(255, 255, 255, 0);
+    transition: 500ms;
+}
+
+.button-whatsapp .outline:hover {
+    border: 4px solid rgba(116, 228, 104, 0.8);
+    transition: 500ms;
+}
+
+.button-whatsapp .outline .text-button{
+    color: #2E3235;
+    font-family: "geom-graphic", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    float: left;
+    margin: 20px;
+    text-transform: uppercase;
+}
+
+.button-whatsapp .outline i {
+    color: #2E3235;
+    float: left;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.button-whatsapp .outline .line-divisor{
+    background-color: rgba(0, 0, 0, 0.15);
+    width: 1px;
+    height: 60px;
+    float: left;
+}
+.button-whatsapp .outline .line-divisor-white{
     background-color: rgba(255, 255, 255, 0.2);
     width: 2px;
     height: 60px;
